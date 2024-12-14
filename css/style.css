@@ -1,0 +1,178 @@
+/* global changes */
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+    font-size: 15px;
+    min-width: 450px;
+
+}
+
+/* landing page styles */
+
+#main-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.navbar li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 5px 0 5px;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+/* social contaoner (picture, name, socials) */
+
+
+.container{
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    background-color: #323232;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.543);
+    padding: 15px;
+    margin: 15px 15px;
+    min-height: 500px;
+    max-height: 500px;
+}
+
+
+img#myphoto{
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.543);
+    text-align: center;
+}
+
+.social ul{
+    padding: 0;
+    margin-top: 25px;
+}
+
+.social li{
+    display: inline;
+    padding: 15px;
+}
+
+.socico{
+    width: 25px;
+}
+
+/* about me information (paragraph interest statement) */
+
+#aboutme{
+    flex: 3;
+    padding: 15px;
+    margin: 15px;
+    width: 60%;
+    min-width: 300px;
+}
+
+#aboutme h3{
+    font-size: 36px;
+    margin-top: 0;
+}
+
+/* cv page styles */
+
+#cvsears{
+    margin: auto;
+    width: 60%;
+}
+
+
+.cvhead{
+    font-size: 36px;
+}
+
+#cv{
+    flex: 3;
+    padding: 15px;
+    margin: 15px;
+    width: 60%;
+    min-width: 300px;
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.543);
+}
+
+#cv h1{
+    font-size: 36px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* edu container */
+
+h2{
+    border-bottom: 1px solid black;
+}
+
+/* pub container */
+
+.pubs-ip li{
+    margin-bottom: 10px;
+}
+
+.book-ch li{
+    margin-bottom: 10px;
+}
+
+/* presentation container */
+.pres-conf li{
+    margin-bottom: 10px;
+}
+
+/* service container */
+
+.serv-list li{
+    margin-bottom: 10px;
+}
+
+/* Awards Container */
+
+.hon-awa li{
+    margin-bottom: 10px;
+}
+
+/* footer style */
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+
+
