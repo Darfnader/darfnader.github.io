@@ -171,6 +171,37 @@ h2{
     font-size: 100px;
 }
 
+.download{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* download button containers */
+
+.cv-download{
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.543);
+    border: none;
+    padding: 25px;
+    font-size: 36px;
+    flex: 3;
+    background-color: #323232;
+    color: #fff;
+}
+
+.cv-download a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.cv-download:hover{
+    background-color: #565656;
+    color: #fff;
+}
+
 /* footer style */
 
 footer{
