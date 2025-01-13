@@ -203,11 +203,71 @@ h2{
     color: #fff;
 }
 
+/* Teaching Page */
+
+#teaching-head{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: #323232;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.543);
+}
+
+#teach-lnk{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    margin-top: 25px;
+}
+
+.intro-soc{
+    flex: 1;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30%;
+    background-color: #323232;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.543);
+}
+
+.youth-crime{
+    flex: 1;
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 30%;
+    background-color: #323232;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.543);
+
+}
+
+.pp-temp{
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 10px;
+    float: left;
+    width: 30%;
+    background-color: #323232;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.543);
+
+}
+
 /* footer style */
 
 footer{
-    margin-top: 100px;
-    text-align: center;
+    position: fixed;
+    margin: auto;
+    
 }
 
 
